@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+#controls {
+  margin-bottom: 10px;
+}
+
+#output {
+  font-size: 4em;
+  color: goldenrod;
+}
+
+#startPause {
+  background-color: greenyellow;
+  border: greenyellow;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px darkorange;
+}
+
+#reset {
+  background-color: rgb(199, 187, 187);
+  border: grey;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px darkorange;
+}
+
+#circleBut {
+  background-color: grey;
+  border: grey;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px darkorange;
+}
